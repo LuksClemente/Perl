@@ -23,12 +23,38 @@ Perl pode ser definida como uma linguagem multiparadigma, isto é, uma linguagem
 
 * Programação Funcional: Um dos recursos da programação funcional existentes em Perl são a maneira como as funções podem ser passadas como parâmetro e valores para outras e funções e podendo ter o resultado armazenado em uma constante.
 
-* Programação Orientada a Objetos: 
+* Programação Orientada a Objetos: Perl também possui um modelo de orientação a objetos. Em Perl os objetos são estruturas de dados que são associadas a uma classe, os construtores são apenas subs que retornam uma variável e os métodos são apenas subs que recebem a referência de um objeto já instanciado.  
+  
+Além disso, como Perl possui tipagem dinâmica, não é necessário especificar o tipo de uma variável, o intérprete Perl selecionará automaticamente o tipo de correspondência, dependendo do contexto. Em Perl temos 3 tipos de dados básicos: Escalares, Arrays e Hashs. Por influência das linguagens de Shell Script as variáveis escalares são precedidas por um $(cifrão), seguindo a lógica, os arrays são precedidos por @(arroba/at) e as hashs são precedidas por %(porcentagem).  
+  
+Assim como toda linguagem, Perl também possui vantagens e desvantagens:  
+  
+#### Vantagens:
+
+  * Ótimo para manipulação de textos
+  * Desenvolvida como Software Livre
+  * Multiplataforma
+  * Multiparadigma
+  * Integração com banco de dados
+  * Módulos HTML
+  * Módulo CGI
+  * Manipulação de dados criptografados  
+  
+  #### Desvantagens:  
+    
+  * Scripts lentos por conta do interpretador
+  * Sem acesso a funções de baixo nível, ou seja, menos liberdade
+  * muitos códigos são difíceis de ler e ruins de escrever, dificultando a manutenção
+  * Processos que algumas vezes ocupam muito espaço na memória
+
 
 ### Exemplos
+  
+  
 ### Referências
   
 * https://pt.wikipedia.org/wiki/Perl
 * http://www.smeduquedecaxias.rj.gov.br/nead/Biblioteca/Forma%C3%A7%C3%A3o%20Continuada/Tecnologia/cursos/programacao/perl/cgi.pdf
 * http://www.w3big.com/perl/perl-intro.html
 * https://blol.org/1700-programacao-funcional-com-perl-parte-i-revista-e-aumentada
+* https://www.vivaolinux.com.br/script/Orientacao-a-Objetos-Criando-e-usando-uma-classe-em-Perl/
