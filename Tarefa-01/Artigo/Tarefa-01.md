@@ -8,7 +8,7 @@
 - [Referências](#Referências)
 ### Introdução
 
-   Perl é uma linguagem de programação de alto nível multiplataforma. Chamada por muitos de "Canivete Suíço", a linguagem é bastante flexível, possuindo um leque de aplicações bem amplo, tais como aplicações CGI para a web, administração de sistemas, manipulação de dados criptográficos, programação gráfica e outras várias aplicações que exigem facilidade em manipulação de Strings
+<p>Perl é uma linguagem de programação de alto nível multiplataforma. Chamada por muitos de "Canivete Suíço", a linguagem é bastante flexível, possuindo um leque de aplicações bem amplo, tais como aplicações CGI para a web, administração de sistemas, manipulação de dados criptográficos, programação gráfica e outras várias aplicações que exigem facilidade em manipulação de Strings</p>
 
 ### Origem
 
