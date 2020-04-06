@@ -17,11 +17,13 @@ Perl foi criado por Larry Wall em 1987, fortemente baseada em AWK, BASIC, C, C++
 ### Características
 Perl pode ser definida como uma linguagem multiparadigma, isto é, uma linguagem que suporta vários paradigmas de programação. Os paradigmas suportados são:  
   
-* Programação imperativa: Sua maneira de programar voltada a descrever como o software deve realizar cada tarefa, linha por linha, através de comandos, com suas varíaveis modelando as células de memória.
+* Programação Imperativa: Sua maneira de programar voltada a descrever como o software deve realizar cada tarefa, linha por linha, através de comandos, com suas varíaveis modelando as células de memória.
 
-* Programação estruturada: Assim como C e outras linguagens estruturadas, Perl permite que o usuário possa definir as suas próprias funções e subrotinas. Além disso possui estruturas de controle muito semelhantes a C.
+* Programação Estruturada: Assim como C e outras linguagens estruturadas, Perl permite que o usuário possa definir as suas próprias funções e subrotinas. Além disso possui estruturas de controle muito semelhantes a C.
 
-* Programação funcional: 
+* Programação Funcional: Um dos recursos da programação funcional existentes em Perl são a maneira como as funções podem ser passadas como parâmetro e valores para outras e funções e podendo ter o resultado armazenado em uma constante.
+
+* Programação Orientada a Objetos: 
 
 ### Exemplos
 ### Referências
