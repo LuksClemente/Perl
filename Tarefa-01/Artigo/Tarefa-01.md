@@ -1,5 +1,10 @@
 # Perl
-![Perl](http://www.w3big.com/perl/0020_999_1373967199_perl_256.png)
+![Perl](http://www.w3big.com/perl/0020_999_1373967199_perl_256.png)  
+
+**Alunos**: Lucas Clemente e Matheus Sales  
+**Professor**: Francisco Sant'Anna  
+**Disciplina**: Estruturas de Linguagens - 2020.1  
+
 ## Sumário
 - [Introdução](#Introdução)
 - [Origem](#Origem)
