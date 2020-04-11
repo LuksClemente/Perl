@@ -17,7 +17,8 @@ Perl é uma linguagem de programação de alto nível multiplataforma. Chamada p
 
 ### Origem
 
-Perl foi criado por Larry Wall em 1987, fortemente baseada em AWK, BASIC, C, C++, Lisp, Sed e no Shell dos sistemas UNIX. Originalmente a única documentação disponivel sobre Perl era uma man page ("man perl" nos terminais UNIX) e mais tarde em 1991 o livro Programming Perl, conhecido por muitos como Camel Book por conta de sua capa, tornou-se a referencia universal para Perl. Até sua versão 4, Perl era mais considerada como uma linguagem auxiliar, visto que nela existiam diversas limitações tais como a inviabilidade de se desenvolver programas "grandes". Após sua versão 5, Perl atingiu o patamar de uma linguagem completa.
+Perl foi criado por Larry Wall em 1987, fortemente baseada em AWK, BASIC, C, C++, Lisp, Sed e no Shell dos sistemas UNIX, utilizando alguns recursos muito similares aos recursos dessas linguagens, tais como o cifrão($) na frente de variáveis escalares, recurso vindo das linguagens de Shell Script, as Hashtables de AWK, estruturas e sub-rotinas de C/C++, as listas de Lisp e as expressões regulares de Sed.  
+Originalmente a única documentação disponivel sobre Perl era uma man page ("man perl" nos terminais UNIX) e mais tarde em 1991 o livro Programming Perl, conhecido por muitos como Camel Book por conta de sua capa, tornou-se a referencia universal para Perl. Até sua versão 4, Perl era mais considerada como uma linguagem auxiliar, visto que nela existiam diversas limitações tais como a inviabilidade de se desenvolver programas "grandes". Após sua versão 5, Perl atingiu o patamar de uma linguagem completa.
 
 ### Características
 Perl pode ser definida como uma linguagem multiparadigma, isto é, uma linguagem que suporta vários paradigmas de programação. Os paradigmas suportados são:  
