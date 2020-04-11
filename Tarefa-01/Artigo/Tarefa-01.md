@@ -174,7 +174,101 @@ else:
 
     print "]\n"
 ```
-  
+#### Adivinhar o numero
+```pl
+print("ADIVINHE O NUMERO\n\n");
+print("Voce tem tres chances e o numero esta entre 0 e 9 :)\n");
+$n=int(rand(10));
+#print("$n");
+for($i = 0, $i<3, $i+=1){
+	print("Faca sua escolha:\n");
+	$e=<STDIN>;
+	chomp($e);
+	if($e > $n) {
+		print("menor!\n");
+	}
+	elsif($e < $n){
+		print("maior!\n");
+	}
+	else{
+		print("Ganhou!!!!!\n");
+		last;
+	}
+}
+```
+##### O programa acima em Python
+```py
+from random import *
+print("ADIVINHE O NUMERO\n\n")
+print("Voce tem tres chances e o numero esta entre 0 e 9 :)\n")
+n=int(randint(0,10))
+print(n)
+for i in range(3):
+    e=int(input("Faca sua escolha: "))
+    if(e > n):
+        print("menor!")
+    elif(e < n):
+        print("maior!")
+    else:
+        print("Ganhou!!!!!")
+        break
+```
+#### Calculadora em Perl
+```pl
+use Switch;
+print("CALCULADORA EM PERL\n\n");
+print("Escolha a opcao desejada: ");
+print("+, -, *, /\n");
+$escolha = <STDIN>;
+chomp($escolha);
+print("Insira o primeiro numero:\n");
+$n = <STDIN>;
+chomp($n);
+print("Insira o segundo numero:\n");
+$n2 = <STDIN>;
+chomp($n2);
+switch($escolha){
+	case "+"{
+		$r = $n + $n2;
+		print("$n + $n2 = $r\n");
+	}
+	case "-"{
+		$r = $n - $n2;
+		print("$n - $n2 = $r\n");
+	}
+	case "*"{
+		$r = $n * $n2;
+		print("$n * $n2 = $r\n");
+	}
+	case "/"{
+		$r = $n / $n2;
+		print("$n / $n2 = $r\n");
+	}
+}
+```
+##### O código acima em Python
+```py
+
+print("CALCULADORA EM PYTHON 3\n\n")
+escolha=input("Escolha a opcao desejada: +, -, *, /: ")
+n1=float(input("Insira o primeiro numero: "))
+n2=float(input("Insira o segundo numero: "))
+if(escolha == '+'):
+    result = n1+n2
+    print("{:1.2f} + {:1.2f} = {:1.2f}".format(n1,n2,result))
+    
+elif(escolha == '-'):
+    result = n1-n2
+    print("{:1.2f} - {:1.2f} = {:1.2f}".format(n1,n2,result))
+
+elif(escolha == '*'):
+    result = n1*n2
+    print("{:1.2f} * {:1.2f} = {:1.2f}".format(n1,n2,result))
+    
+else:
+    result = n1/n2
+    print("{:1.2f} / {:1.2f} = {:1.2f}".format(n1,n2,result))
+```   
 ### Referências
   
 * https://pt.wikipedia.org/wiki/Perl
