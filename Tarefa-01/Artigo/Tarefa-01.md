@@ -25,7 +25,7 @@ Perl pode ser definida como uma linguagem multiparadigma, isto é, uma linguagem
   
 * Programação Imperativa: Sua maneira de programar voltada a descrever como o software deve realizar cada tarefa, linha por linha, através de comandos, com suas varíaveis modelando as células de memória.
 
-* Programação Estruturada: Assim como C e outras linguagens estruturadas, Perl permite que o usuário possa definir as suas próprias funções e subrotinas. Além disso possui estruturas de controle muito semelhantes a C.
+* Programação Estruturada: Assim como C e outras linguagens estruturadas, Perl permite que o usuário possa definir as suas próprias funções e subrotinas. Além disso possui estruturas de controle muito semelhantes a C, que inclusive foi uma das fortes influências de Perl.
 
 * Programação Funcional: Um dos recursos da programação funcional existentes em Perl são a maneira como as funções podem ser passadas como parâmetro e valores para outras e funções e podendo ter o resultado armazenado em uma constante.
 
