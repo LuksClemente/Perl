@@ -55,6 +55,125 @@ Assim como toda linguagem, Perl também possui vantagens e desvantagens:
 
 ### Exemplos
   
+#### Hello World em Perl
+```pl
+#!/usr/local/bin/perl
+print("Hello World!");
+```
+#### 10 Primeiros números da sequencia de fibonacci em perl
+```pl
+#!/usr/local/bin/perl
+$n=1;
+$n2=1;
+for($i = 0; $i < 10; $i++){
+  print("$n\n");
+  $t = $n2;
+  $n2 = $n+$n2;
+  $n = $t;
+}
+```
+##### O programa acima em Python
+```py
+n=1
+n2=1
+for i in range(10):
+    print(n)
+    n, n2 = n2, n+n2
+```
+#### Comparador de Strings em Perl
+```pl
+sub comparator{
+	my(@parametros) =  @_;
+	
+	my $string1 = $parametros[0];
+	my $string2 = $parametros[1];
+	
+	if($string1 eq $string2){
+		return 1;
+	}
+	return 0;
+}
+my $resultado1 = comparator("Lucas", "Clemente");
+my $resultado2 = comparator("Clemente", "Clemente");
+
+if($resultado1 == 1){
+	print "As primeiras strings sao iguais!\n";
+}
+else{
+	print "As primeiras strings sao diferentes!\n";
+}
+if($resultado2 == 1){
+	print "As segundas strings sao iguais!\n";
+}
+else{
+	print "As segundas strings sao diferentes!\n";
+}
+```
+##### O programa acima em Python
+```py
+def Comparator(s1, s2):
+
+    if(s1 == s2):
+        return 1
+
+    return 0
+
+resultado1 = Comparator("Lucas", "Clemente")
+resultado2 = Comparator("Clemente", "Clemente")
+
+if(resultado1 == 1):
+    print "As primeiras strings sao iguais!\n"
+else:
+    print "As primeiras strings sao diferentes!\n"
+
+if(resultado2 == 1):
+    print "As segundas strings sao iguais!\n"
+else:
+    print "As segundas strings sao diferentes!\n"
+```
+#### Numeros pares em um intervalo
+```pl
+print "Escolha um numero: ";
+chomp($a = <STDIN>);
+
+print "Escolha outro numero: ";
+chomp($b = <STDIN>);
+
+if($a > $b){
+	print "\nO primeiro numero deve ser menor que o segundo pro programa funcionar!\n\n";
+}
+else{
+	print "\n--NUMEROS PARES ENTRE $a E $b---\n";
+	print "\n[";
+
+	for($i = $a; $i <= $b; $i++){
+		if($i%2 == 0){
+			print "$i ";
+		}
+	}
+
+	print "]\n";
+}
+```
+##### O programa acima em Python
+```py
+  
+a = input("Escolha um numero: ")
+
+b = input("Escolha outro numero: ")
+
+if(a > b):
+    print "\nO primeiro numero deve ser menor que o segundo para o programa funcionar!\n\n"
+else:
+    print "\n---NUMEROS PARES ENTRE {} e {}---\n".format(a, b)
+    print "\n["
+
+    for i in range(a, b+1):
+        if(i%2 == 0):
+            print i,
+
+    print "]\n"
+```
   
 ### Referências
   
